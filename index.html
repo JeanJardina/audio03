@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audio Player</title>
+  <style>
+    body {
+      background: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    audio {
+      width: 300px;
+      background-color: transparent;
+    }
+
+    audio::-webkit-media-controls-enclosure {
+      border-radius: 0;
+      background-color: transparent;
+    }
+
+    audio::-webkit-media-controls-download-button {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <audio controls controlsList="nodownload">
+    <source src="https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/792aad84-b931-4024-bca1-e75b2c8c3ffb/Audio-3-Step-Into-Your-Dream-Business.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
